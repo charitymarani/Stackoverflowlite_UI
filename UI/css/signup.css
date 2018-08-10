@@ -1,0 +1,70 @@
+@import 'colors.css';
+@import 'columns.css';
+@import 'components.css';
+@import 'helpers.css';
+@import 'home.css';
+
+/* Add a black background color to the top navigation */
+.content {
+  margin-top: 100px;
+  padding: 0 20px;
+}
+.register_form{
+
+}
+}
+.search{
+  margin-left: 100px;
+  float:left;
+  margin-top: 25px ;
+
+}
+.signup{
+  
+  margin-left: 25%;
+ 
+  text-align: left;
+}
+.searchinput{
+  cursor: pointer;
+    
+    border-width: 0;
+    padding: 9px 17px;
+    
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    width:300px;
+    white-space: nowrap;
+    line-height: 1.5384616;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    background-image: none;
+    transition: all ease-in-out .15s;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+}
+.header {
+  background-color: #f1f0d1;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  top:0;
+}
+.logo{display: block;
+width:33%;
+  float: left;
+  padding: 10px 0px;
+}
+.header_buttons {
+  float: right;
+  padding:15px 30px 0px 0px;
+
+}
+.login_button {
+  margin: 0 20px;
+  text-decoration: none;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+
+<body>
+    <header class="header">
+            <img src="images/logo2.png" class="logo"/>
+            
+            <form class="search">
+    <input class="searchinput" type="text" placeholder="Search for questions">
+    <button class="btn">search</button>
+  </form>
+
+            <div class="header_buttons">
+                
+                <a href="pages/login.html" class="btn bg-slate login_button">LOGOUT</a>
+            </div>
+        </header>
+    <div class="content">
+        <div class="sidenav">
+            <h3>@Nickie-Jones</h3>
+            <img src="image.jpg" class="profile">
+            <div class="details">
+                Full name : Nicole Jones<br/>
+                Email : jones@kibu.co.ke<br/>
+                Phone number: 345566 <br/><br/>
+            </div>
+            <button class="btn bg-slate login_button" onclick="editProfile()">Edit Profile</button>
+        </div>
+        <div id="summary">
+          <button href="pages/question.html" class="btn bg-slate login_button ask">ASK A QUESTION</button>
+          <br/>
+          <br/>
+
+            <table id="activity">
+                <tr>
+                    <td>Number of questions asked</td>
+                    <td>5</td>
+                    <td>
+                        <button class="btn bg-slate login_button">View</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Number of questions answered</td>
+                    <td>5</td>
+                    <td>
+                        <button class="btn bg-slate login_button" >View</button>
+                        
+                    </td>
+                </tr>
+            </table>
+            <h4>Most answered questions</h4>
+            <hr/>
+            <table>
+                        <tr>
+                    <td>votes[3]</td>
+                    <td>Answers[5]</td>
+                    <td>
+                       What's the difference between () and {} in javascript functions? <br/>
+                       <i>Topic:javascript</i>
+                    </td>
+                    <td><button class="btn">Delete</button></td>
+                </tr>
+                
+
+                    </table>
+                     <table>
+                        <tr>
+                    <td>votes[3]</td>
+                    <td>Answers[5]</td>
+                    <td>
+                       What's the difference between () and {} in javascript functions? <br/>
+                       <i>Topic:javascript</i>
+                    </td>
+                    <td><button class="btn">Delete</button></td>
+                </tr>
+                
+
+                    </table>
+             <h4>Recently asked questions</h4>
+            <hr/>
+            <table>
+                        <tr>
+                    <td>votes[3]</td>
+                    <td>Answers[5]</td>
+                    <td>
+                       What's the difference between () and {} in javascript functions? <br/>
+                       <i>Topic:javascript</i>
+                    </td>
+                    <td><button class="btn">Delete</button></td>
+                </tr>
+                
+
+                    </table>
+                     <table>
+                        <tr>
+                    <td>votes[3]</td>
+                    <td>Answers[5]</td>
+                    <td>
+                       What's the difference between () and {} in javascript functions? <br/>
+                       <i>Topic:javascript</i>
+                    </td>
+                    <td><button class="btn">Delete</button></td>
+                </tr>
+                
+
+                    </table>
+        </div>
+    </div>
+    <div id="edit" class="cevicheOne">
+        <form id="editProfileForm" nonvalidate style="text-align:left">
+                <label for='"fname"'>First Name:</label>
+                <input id="name" type="text" required="*"><br><br>
+
+                <label for='"lname"'>Last Name:</label>
+                <input id="name" type="text" required="*"><br><br>
+
+                <label for='"email"'>Email:</label>
+                <input id="email" type="email" required="*"><br><br>
+
+                <label for='"number"'>Phone Number:</label>
+                <input id="number" type="text" required="*"><br><br>
+
+                <button> Save</button>
+        </form>
+    </div>
+    
+</body>
+
+</html>

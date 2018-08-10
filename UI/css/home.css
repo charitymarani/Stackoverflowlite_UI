@@ -1,0 +1,158 @@
+@import 'colors.css';
+@import 'columns.css';
+@import 'components.css';
+@import 'helpers.css';
+
+/* Add a black background color to the top navigation */
+#topquestions{
+  left:3%;
+}
+td{
+  padding:10px;
+}
+.question_item {
+    background-color: #f1f1f1;
+    padding: 6px 16px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+.question_item:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19) !important;
+}
+.content {
+  margin-top: 100px;
+  padding: 0 20px;
+}
+.searchinput{
+  cursor: pointer;
+    
+    border-width: 0;
+    padding: 9px 17px;
+    
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    width:300px;
+    white-space: nowrap;
+    line-height: 1.5384616;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    background-image: none;
+    transition: all ease-in-out .15s;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+}
+.header {
+  background-color: #f1f0d1;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  top:0;
+}
+.logo{display: block;
+width:33%;
+  float: left;
+  padding: 10px 0px;
+}
+.header_buttons {
+  float: right;
+  padding:15px 30px 0px 0px;
+
+}
+.login_button {
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+.topnav {
+    background-color: #f1f0d1;
+    overflow: hidden;
+    border-width: 1px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  margin-right: 20px;
+
+  
+}
+
+.search{
+  margin-left: 100px;
+  float:left;
+  margin-top: 25px ;
+  
+  height: 35px;
+  
+
+
+}
+.sub{
+  font-weight: normal;
+  font-style: italic;
+}
+.btn {
+    cursor: pointer;
+    font-weight: 500;
+    border-width: 0;
+    padding: 9px 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    font-size: 13px;
+    white-space: nowrap;
+    line-height: 1.5384616;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    background-image: none;
+    transition: all ease-in-out .15s;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+}
+
+/* card */
+.card {
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    border-width: 0;
+    color: #333;
+    padding: 20px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+}
