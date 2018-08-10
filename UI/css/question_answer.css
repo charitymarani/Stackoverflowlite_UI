@@ -1,0 +1,52 @@
+@import 'colors.css';
+@import 'columns.css';
+@import 'components.css';
+@import 'helpers.css';
+@import 'home.css';
+#addcomment{
+     cursor: pointer;
+    height:50px;
+    border-width: 0;
+    padding: 9px 17px;
+    
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    width:300px;
+    white-space: nowrap;
+    line-height: 1.5384616;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-image: none;
+    transition: all ease-in-out .15s;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+}
+.addanswer{
+	margin-bottom:  30px !important;
+	 cursor: pointer;
+    
+    border-width: 0;
+    padding: 9px 17px;
+    height:100px;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    width:500px;
+    white-space: nowrap;
+    line-height: 1.5384616;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-image: none;
+    transition: all ease-in-out .15s;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+
+}
+.quask{
+	margin-top: 50%;
+}
