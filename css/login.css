@@ -59,7 +59,7 @@
 	}
 	.login_content{
 	   margin:0 auto !important;
-	   width:90%;
-	   float:none;
+	   width:100% !important;
+	   float:none !important;
 	}
 }
