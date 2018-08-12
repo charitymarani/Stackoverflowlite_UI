@@ -122,4 +122,12 @@ display:none;
 	.mobile_profile{
 	display:block;
 	}
+	.sidenav{
+	display:none;
+	}
+	#summary{
+	        margin-left:0 !important;
+		width:100%;
+		padding:20px;
+	}
 }
