@@ -65,3 +65,28 @@ width:33%;
   margin: 0 20px;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 768px){
+	.search{
+	    display:none !important;
+	}
+	#login_content{
+	   margin:0 auto !important;
+	   width:100% !important;
+	   float:none !important;
+	}
+	.col-6{
+	 width: 100% !important;
+	}
+	.content__login--center{
+	margin-left: 0% !important;
+	}
+	.content__login_card {
+               padding: 10px !important;
+}
+	.content__login{
+	        width:100% !important;
+		margin: 0 !important;
+		padding : 0 !important;
+	}
+}
