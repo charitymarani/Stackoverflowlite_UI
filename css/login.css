@@ -63,17 +63,17 @@
 	   float:none !important;
 	}
 	.col-6{
-	 width:100% !important;
+	 width: 100% !important;
 	}
 	.content__login--center{
-	margin-left:0 !important;
+	margin-left: 0% !important;
 	}
 	.content__login_card {
   padding: 2px !important;
 }
 	.content__login{
 	        width:100% !important;
-		margin:0 !important;
-		padding 0 !important;
+		margin: 0 !important;
+		padding : 0 !important;
 	}
 }
