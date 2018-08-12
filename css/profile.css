@@ -6,6 +6,9 @@
 }
 
 /* Change the color of links on hover */
+.profile_quiz{
+display:none;
+}
 
 .mobile_profile{
 display:none;
