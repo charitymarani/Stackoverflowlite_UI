@@ -53,3 +53,13 @@
 	height:500px;
 	margin: auto;
 }
+@media only screen and (max-width: 768px){
+	.search{
+	    display:none !important;
+	}
+	.login_content{
+	   margin:0 auto !important;
+	   width:90%;
+	   float:none;
+	}
+}
