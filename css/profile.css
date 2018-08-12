@@ -7,8 +7,10 @@
 
 /* Change the color of links on hover */
 
-  
+.mobile_profile{
+display:none;
 }
+
 .logo{
   float:left;
 }
@@ -116,5 +118,8 @@
 	width: 80px;
 	
 	
+	}
+	.mobile_profile{
+	display:block;
 	}
 }
