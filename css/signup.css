@@ -74,10 +74,13 @@ width:33%;
   
           margin-left: 0% !important;
  
-  text-align: left;
+          text-align: left;
 }
 	.col-6{
 	 width: 100% !important;
+	}
+	.content{
+	margin-top:20px !important;
 	}
 	
 }
