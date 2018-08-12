@@ -1,7 +1,4 @@
-@import 'colors.css';
-@import 'columns.css';
-@import 'components.css';
-@import 'helpers.css';
+@import 'styles.css';
 @import 'home.css';
 #addcomment{
      cursor: pointer;
@@ -11,7 +8,7 @@
     
     display: inline-block;
     margin-bottom: 0;
-    text-align: center;
+   
     vertical-align: middle;
     touch-action: manipulation;
     cursor: pointer;
@@ -33,7 +30,7 @@
     height:100px;
     display: inline-block;
     margin-bottom: 0;
-    text-align: center;
+   
     vertical-align: middle;
     touch-action: manipulation;
     cursor: pointer;
@@ -49,4 +46,7 @@
 }
 .quask{
 	margin-top: 50%;
+    
+.askq{
+   
 }

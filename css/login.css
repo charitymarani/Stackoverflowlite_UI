@@ -1,7 +1,6 @@
-@import 'colors.css';
-@import 'columns.css';
-@import 'components.css';
-@import 'helpers.css';
+@import 'styles.css';
+@import 'home.css';
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #f1f0d1;
