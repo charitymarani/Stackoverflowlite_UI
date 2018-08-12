@@ -71,11 +71,9 @@ width:33%;
 	    display:none !important;
 	}
 	.signup{
-  
-          margin-left: 0% !important;
- 
-          text-align: left;
-}
+                margin-left: 0 !important;
+		text-align: left;
+	}
 	.col-6{
 	 width: 100% !important;
 	}
