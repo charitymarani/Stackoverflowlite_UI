@@ -4,13 +4,13 @@ html,body {
   font-family: 'Averta', serif;
   background-color: #f4f4f4;
   padding:0px;
-  height:100% !important;
+  height:100% ;
   
 }
 
 
 .container {
-   min-height:100% ;
+   min-height:100% !important;
    position:relative;
    padding-bottom:80px !important;
 }
