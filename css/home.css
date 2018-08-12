@@ -21,7 +21,7 @@ td{
   padding: 0 20px;
 }
 .searchmobile{
-display:none;
+  display: none;
 }
 .searchinput{
   cursor: pointer;
