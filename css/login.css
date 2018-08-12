@@ -66,6 +66,9 @@
 	 width:100% !important;
 	}
 	.content__login--center{
-	margin-left:0px !important;
+	margin-left:0 !important;
 	}
+	.content__login_card {
+  padding: 2px !important;
+}
 }
