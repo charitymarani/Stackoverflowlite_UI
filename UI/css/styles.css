@@ -9,7 +9,7 @@ html,body {
 }
 
 
-#container {
+.container {
    min-height:100% ;
    position:relative;
    padding-bottom:80px !important;
