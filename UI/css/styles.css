@@ -69,7 +69,7 @@ a:hover{
 .content {
   margin-top: 100px;
   padding: 10px;
-  padding-bottom:80px !important;/* Height of the footer */
+  overflow:hidden;
  
 }
 
