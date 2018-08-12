@@ -57,7 +57,7 @@
 	.search{
 	    display:none !important;
 	}
-	.login_content{
+	#login_content{
 	   margin:0 auto !important;
 	   width:100% !important;
 	   float:none !important;
