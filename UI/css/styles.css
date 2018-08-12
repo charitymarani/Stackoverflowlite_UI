@@ -1,24 +1,21 @@
-
 html,body {
   margin: 0;
   font-family: 'Averta', serif;
   background-color: #f4f4f4;
   padding:0px;
-  height:100% !important;
+  height:100% ;
+  position:relative;
   
 }
 
 
 .container {
-   min-height:100% ;
+   height:auto;
+   min-height:100%;
    position:relative;
-   padding-bottom:80px !important;
+  padding:0 !important;
+  
 }
-
-
-
- 
-
   /* header */
 .header {
   background-color: #fff;
