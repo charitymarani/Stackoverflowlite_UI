@@ -50,3 +50,14 @@
 .askq{
    
 }
+@media only screen and (max-width: 768px){
+	.qa{
+		font-size:20px;
+	}
+	#addcomment{
+		width:90%;
+	}
+	#addanswer{
+	      width:90%;
+	}
+	}
