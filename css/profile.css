@@ -119,7 +119,8 @@ display:none;
 .profile{
 	height: 80px;
 	width: 80px;
-	
+	border-radius: 50%;
+	box-shadow: 1px 1px 3px grey;
 	
 	}
 	.mobile_profile{
@@ -135,7 +136,7 @@ display:none;
 	}
 	.profile_quiz{
 	display:block;
-	text-align:center;
+	text-align:center !important;
 	}
 	.main_ask{
 	display:none;
