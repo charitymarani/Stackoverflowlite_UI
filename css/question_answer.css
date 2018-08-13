@@ -52,12 +52,12 @@
 }
 @media only screen and (max-width: 768px){
 	.qa{
-		font-size:20px;
+		font-size:20px !important;
 	}
 	#addcomment{
-		width:90%;
+		width:90% !important;
 	}
 	#addanswer{
-	      width:90%;
+	      width:90% !important;
 	}
 	}
