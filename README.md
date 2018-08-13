@@ -1,5 +1,7 @@
 # StackOverflowlite-UI
-User interface for a stackoverflow-like platform where people can ask questions and provide answers 
+### WHAT?
+
+Stackoverflowlite is a web application that allows  people to ask questions and provide answers 
 
 #### REQUIRED FEATURES
 
@@ -17,5 +19,19 @@ User interface for a stackoverflow-like platform where people can ask questions 
 3. Users can fetch all questions he/she has ever asked on the platform
 4. Users can search for questions on the platform
 5. Users can view questions with the most answers.
+### TECHNOLOGY
+1. HTML
+2. CSS
+3.Javascript
+###TOOLS
+1. Pivotal tracker project management tool
+### SCREENSHOTS
+Coming soon
+### GETTING STARTED
+git clone https://github.com/charitymarani/StackOverflowlite-UI.git
 
-
+cd UI Then open index.html in your browser
+### CONTRIBUTING
+You can always contribute though the project is still underway.
+### AUTHOR
+Charity Marani @charitymarani
