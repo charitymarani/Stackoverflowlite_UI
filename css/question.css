@@ -30,10 +30,12 @@
 .quiz_left{
 	width:100% !important;
 	float:none;
+	display:block;
 	
 	}
 	.quiz_right{
 	width:100% !important;
 		float:none;
+		display:block;
 	}
 }
