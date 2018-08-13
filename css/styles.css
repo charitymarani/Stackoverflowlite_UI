@@ -1,4 +1,5 @@
 
+
 html,body {
   margin: 0;
   font-family: 'Averta', serif;
@@ -7,6 +8,10 @@ html,body {
   height:100% ;
   position:relative;
   
+}
+.im_icons{
+width:30px;
+height:30px;
 }
 
 
