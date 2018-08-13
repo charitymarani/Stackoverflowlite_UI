@@ -38,4 +38,10 @@
 		float:none;
 		display:block;
 	}
+	.qa{
+	font-size:22px;
+	}
+	.content{
+	margin-top:50px;
+	}
 }
