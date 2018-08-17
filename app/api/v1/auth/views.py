@@ -5,7 +5,7 @@ from flask_jwt_extended import (JWTManager, jwt_required,
 from app.api.v1.auth import auth_model
 from app.api.v1.main import responses
 from app.api.v1.auth.auth_model import USERS
-from instance.config import CONFIG
+from .config import CONFIG
 from app import APP
 
 auth = Blueprint('auth', __name__)
