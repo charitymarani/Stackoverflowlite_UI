@@ -4,9 +4,9 @@ python:
 
 install:
   - pip install -r requirements.txt
-  - pip install pytest
+  - pip install unittest2
 script:
-- pytest app.api.v1.auth.tests
-- pytest app.api.v1.question.test
+- unittest2 app.api.v1.auth.tests
+- unittest2 app.api.v1.question.test
   
 
