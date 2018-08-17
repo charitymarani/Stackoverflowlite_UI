@@ -4,7 +4,7 @@ main config  file
 '''
 
 from flask import Flask, request, jsonify
-from .config import CONFIG
+from config import CONFIG
 from flask_jwt_extended import (JWTManager, jwt_required,
                                 create_access_token, get_raw_jwt)
 from app.api.v1.question.views import qn
