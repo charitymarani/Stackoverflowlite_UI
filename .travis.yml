@@ -1,13 +1,14 @@
-language: python
-python:
-  - "3.5.2"
-
-install:
-  - pip install -r requirements.txt
-  - pip install coveralls
-  - pip install pytest
-script:
-- coverage run --source = app -m app.api.v1.auth.tests.test_auth
-- coverage run --source = app -m app.api.v1.auth.tests.test_auth
-  
+language: python	
+python:	
+ - "2.7"	
+cache: pip	
+install:	
+ - pip install -r requirements.txt
+ - pip install coveralls
+ - pip install codeclimate-test-reporter
+script:	
+ - nosetests tests --with-coverage
+after_success:
+ - coveralls
+ - codeclimate-test-reporter
 
