@@ -4,6 +4,6 @@ python:
 
 install:
   - pip install -r requirements.txt
+  - pip install unittest2
   
-script:
-  - py.test --cov=app
+
