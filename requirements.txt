@@ -24,6 +24,7 @@ pycodestyle==2.4.0
 pycparser==2.18
 PyJWT==1.6.4
 pylint==2.1.1
+pytest==3.7.1
 six==1.11.0
 toml==0.9.4
 Werkzeug==0.14.1
