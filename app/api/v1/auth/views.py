@@ -6,7 +6,7 @@ from app.api.v1.auth import auth_model
 from app.api.v1.main import responses
 from app.api.v1.auth.auth_model import USERS
 
-from app import APP
+
 
 auth = Blueprint('auth', __name__)
 
@@ -14,31 +14,6 @@ MY_USER = auth_model.Users()
 BLACKLIST = set()
 jwt = JWTManager(APP)
 '''user actions'''
-
-
-@APP.errorhandler(400)
-def bad_request(error):
-    '''error handler for Bad request'''
-    return jsonify(dict(error='Bad request')), 400
-
-
-@APP.errorhandler(404)
-def page_not_found(error):
-    '''error handler for 404'''
-    return jsonify(dict(error='Page not found')), 404
-
-
-@APP.errorhandler(405)
-def unauthorized(error):
-    '''error handler for 405'''
-    return jsonify(dict(error='Method not allowed')), 405
-
-
-@APP.errorhandler(500)
-def internal_server_error(error):
-    '''error handler for 500'''
-    return jsonify(dict(error='Internal server error')), 500
-
 
 @jwt.token_in_blacklist_loader
 def check_if_token_blacklist(decrypted_token):
