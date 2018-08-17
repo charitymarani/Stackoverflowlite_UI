@@ -13,7 +13,7 @@ APP = Flask(__name__, template_folder='./templates',
             static_folder='./static')
 
 ''' function that receives configaration and creates the app'''
-jwt = JWTManager(APP)
+JWT = JWTManager(APP)
 @APP.errorhandler(400)
 def bad_request(error):
     '''error handler for Bad request'''
