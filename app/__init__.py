@@ -14,7 +14,29 @@ APP = Flask(__name__, template_folder='./templates',
 
 ''' function that receives configaration and creates the app'''
 
+@APP.errorhandler(400)
+def bad_request(error):
+    '''error handler for Bad request'''
+    return jsonify(dict(error='Bad request')), 400
 
+
+@APP.errorhandler(404)
+def page_not_found(error):
+    '''error handler for 404'''
+    return jsonify(dict(error='Page not found')), 404
+
+
+@APP.errorhandler(405)
+def unauthorized(error):
+    '''error handler for 405'''
+    return jsonify(dict(error='Method not allowed')), 405
+
+
+@APP.errorhandler(500)
+def internal_server_error(error):
+    '''error handler for 500'''
+    return jsonify(dict(error='Internal server error')), 500
+  
 def create_app(config):
     APP.config.from_object(CONFIG[config])
     APP.url_map.strict_slashes = False
