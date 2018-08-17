@@ -12,15 +12,7 @@ import app
 auth = Blueprint('auth', __name__)
 
 MY_USER = auth_model.Users()
-BLACKLIST = set()
-jwt = JWTManager(APP)
-'''user actions'''
 
-@jwt.token_in_blacklist_loader
-def check_if_token_blacklist(decrypted_token):
-    '''check if jti(unique identifier) is in black list'''
-    json_token_identifier = decrypted_token['jti']
-    return json_token_identifier in BLACKLIST
 
 
 @auth.route('/api/v1/auth/register', methods=['POST'])
