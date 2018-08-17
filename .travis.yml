@@ -7,7 +7,7 @@ install:
   - pip install coveralls
   - pip install pytest
 script:
-- pytest app.api.v1.auth.tests.test_auth.py
-- pytest app.api.v1.question.test.test_questions.py
+- pytest -m app.api.v1.auth.tests.test_auth
+- pytest -m app.api.v1.question.test.test_questions
   
 
