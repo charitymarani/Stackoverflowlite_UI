@@ -13,7 +13,15 @@ APP = Flask(__name__, template_folder='./templates',
             static_folder='./static')
 
 ''' function that receives configaration and creates the app'''
+BLACKLIST = set()
+jwt = JWTManager(APP)
+'''user actions'''
 
+@jwt.token_in_blacklist_loader
+def check_if_token_blacklist(decrypted_token):
+    '''check if jti(unique identifier) is in black list'''
+    json_token_identifier = decrypted_token['jti']
+    return json_token_identifier in BLACKLIST
 @APP.errorhandler(400)
 def bad_request(error):
     '''error handler for Bad request'''
