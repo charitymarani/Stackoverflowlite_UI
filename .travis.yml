@@ -7,7 +7,7 @@ install:
   - pip install coveralls
   - pip install pytest
 script:
-- coverage run --source= app -m app.api.v1.auth.tests.test_auth
-- coverage run --source= app -m app.api.v1.auth.tests.test_auth
+- coverage run --source = app -m app.api.v1.auth.tests.test_auth
+- coverage run --source = app -m app.api.v1.auth.tests.test_auth
   
 
