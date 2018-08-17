@@ -1,0 +1,147 @@
+@import 'styles.css';
+@import 'home.css';
+
+.prof{
+	 padding:15px 30px 0px 0px;
+}
+
+/* Change the color of links on hover */
+.profile_quiz{
+display:none;
+}
+
+.mobile_profile{
+display:none;
+}
+
+.logo{
+  float:left;
+}
+.search{
+  margin-left: 100px;
+  float:left;
+  margin-top: 25px ;
+  
+
+
+}
+.sidenav{
+	height: 100%;
+	width: 400px;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	overflow-x: none;
+	border-right: 1px solid #333;
+	box-shadow: 1px 1px 3px grey;
+	text-align: center;
+	font-family: Josefin Sans;
+}
+
+.sidenav img{
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 3px grey;
+}
+.sidenav img:hover{
+	opacity: 0.8;
+}
+.details{
+	padding-top: 20px;
+	font-size: 1.2em;
+}
+
+
+#summary{
+	margin-left: 400px;
+	padding: 60px;
+}
+#edit{
+	margin-left: 50px;
+}
+#edit form{
+	margin-left: 30%;
+	margin-top: 40px;
+}
+#edit input{
+	border: none;
+	border-bottom: 1px solid #888;
+	padding: 15px 40px;
+
+}
+#edit label{
+	width: 20%;
+}
+
+
+#edit button{
+	margin-top: 40px;
+
+}
+#summary{
+	width: 100%;
+}
+#activity td, #activity th{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+#activity td{
+	font-family: Ceviche One;
+	font-size: 1.2em
+}
+#activity button{
+	font-family: sans-serif;
+	font-size: 0.8em
+}
+#activity tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+#activity th{
+	background-color: #222;
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+}
+
+
+#edit{
+	display: none;
+
+}
+#edit{
+	font-size: 1.3em;
+}
+@media only screen and (max-width: 768px){
+.profile{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 3px grey;
+	
+	}
+	.mobile_profile{
+	display:block;
+	}
+	.sidenav{
+	display:none;
+	}
+	#summary{
+	        margin-left:0 !important;
+		width:100%;
+		padding:20px;
+	}
+	.profile_quiz{
+	display:block;
+	text-align:center !important;
+	}
+	.main_ask{
+	display:none;
+	}
+	.content{
+	margin-top:50px;
+	}
+}

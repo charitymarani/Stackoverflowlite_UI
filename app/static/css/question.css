@@ -1,0 +1,47 @@
+@import 'styles.css';
+@import 'home.css';
+.question_details{
+	margin-bottom:  15px !important;
+	 cursor: pointer;
+    
+    border-width: 0;
+    padding: 9px 17px;
+    height:100px;
+    display: inline-block;
+    margin-bottom: 0;
+    
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    width:90%;
+    white-space: nowrap;
+    line-height: 1.5384616;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-image: none;
+    transition: all ease-in-out .15s;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+
+}
+#pasthistory{
+    float:right !important;
+}
+@media only screen and (max-width: 768px){
+.quiz_left{
+	width:100% !important;
+	float:none;
+	display:block;
+	
+	}
+	.quiz_right{
+	width:100% !important;
+		float:none;
+		display:block;
+	}
+	.qa{
+	font-size:22px;
+	}
+	.content{
+	margin-top:50px;
+	}
+}

@@ -1,0 +1,15 @@
+language: python	
+python:	
+ - "3.5.2"	
+cache: pip	
+install:	
+ - pip install -r requirements.txt
+ - pip install coveralls
+ - pip install codeclimate-test-reporter
+script:	
+ - nosetests app.api.v1.auth.tests --with-coverage
+ - nosetests app.api.v1.question.test --with-coverage
+after_success:
+ - coveralls
+ - codeclimate-test-reporter
+
