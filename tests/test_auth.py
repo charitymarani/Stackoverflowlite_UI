@@ -5,8 +5,9 @@ import app
 from app import create_app
 from app.api.v1.auth import views
 from config import CONFIG
-
+from app.api.v1.auth import auth_model
 from app.api.v1.auth.views import BLACKLIST
+from app.api.v1.auth.auth_model import USERS
 
 
 class TestAuthEndpoints(unittest.TestCase):
@@ -24,7 +25,7 @@ class TestAuthEndpoints(unittest.TestCase):
                                     content_type='application/json',
                                     data=json.dumps({"username": "hawa",
                                                      "name": "Hawaii Yusuf",
-                                                     "email": "hawa@gma.com",
+                                                     "email": "hawa@gmail.com",
                                                      "password": "where",
                                                      "confirm_password":
                                                      "where"}))
@@ -54,7 +55,7 @@ class TestAuthEndpoints(unittest.TestCase):
                                     content_type='application/json',
                                     data=json.dumps({"username": "lucy",
                                                      "name": "Morningstar",
-                                                     "email": "lucy@hot.com",
+                                                     "email": "lucy@gmail.com",
                                                      "password": "1234",
                                                      "confirm_password":
                                                      "1234"}))
