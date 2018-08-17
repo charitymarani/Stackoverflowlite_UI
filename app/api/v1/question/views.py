@@ -7,7 +7,6 @@ from flask_jwt_extended import (
 from app.api.v1.auth import auth_model
 from app.api.v1.question import question_model
 from app.current_user import get_logged_in_user
-from app import APP
 from uuid import uuid4
 
 all_questions = list()
@@ -15,31 +14,6 @@ qn = Blueprint('question', __name__)
 all_answers = list()
 MY_USER = auth_model.Users()
 MY_QUESTION = question_model.Questions()
-
-
-@APP.errorhandler(400)
-def bad_request(error):
-    '''error handler for Bad request'''
-    return jsonify(dict(error='Bad request')), 400
-
-
-@APP.errorhandler(404)
-def page_not_found(error):
-    '''error handler for 404'''
-    return jsonify(dict(error='Page not found')), 404
-
-
-@APP.errorhandler(405)
-def unauthorized(error):
-    '''error handler for 405'''
-    return jsonify(dict(error='Method not allowed')), 405
-
-
-@APP.errorhandler(500)
-def internal_server_error(error):
-    '''error handler for 500'''
-    return jsonify(dict(error='Internal server error')), 500
-
 
 @qn.route('/api/v1/questions', methods=['POST'])
 @jwt_required
