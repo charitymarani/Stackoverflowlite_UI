@@ -1,0 +1,18 @@
+{
+    "python.pythonPath": "C:\\Users\\user\\.virtualenvs\\challenge2-19ymUor8\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": false,
+    "python.linting.pep8Enabled": false,
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "test_*.py"
+    ],
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.unittestEnabled": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Path": "autopep8",
+}

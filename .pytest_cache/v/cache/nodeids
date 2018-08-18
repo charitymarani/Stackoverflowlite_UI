@@ -1,0 +1,4 @@
+[
+  "app/api/v1/auth/tests/test_auth.py::TestAuthEndpoints::test_reset_password",
+  "app/api/v1/auth/tests/test_auth.py::TestAuthEndpoints::test_user_actions"
+]
