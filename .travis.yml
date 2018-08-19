@@ -7,7 +7,7 @@ install:
  - pip install coveralls
 
 script:	
- - pytest challenge2/tests/test_auth.py 
+ - nosetests tests --with-coverage 
 after_success:
  - coveralls
 
