@@ -1,10 +1,10 @@
 import unittest
 import json
 import ast
-from challenge2.app import createapp
-from challenge2.app.api.v1.auth import views
-from challenge2.instance import settings
-from challenge2.app.api.v1.auth import auth_model
+from app import createapp
+from app.api.v1.auth import views
+from instance import settings
+from app.api.v1.auth import auth_model
 
 
 class TestAuthEndpoints(unittest.TestCase):
