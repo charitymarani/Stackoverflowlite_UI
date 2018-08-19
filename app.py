@@ -1,13 +1,13 @@
 import re
 from flask import Flask, request, jsonify, make_response, render_template
-from challenge2.main.current_user import get_logged_in_user
-from challenge2.models import Questions, Answers
-from challenge2.main.checker import question_already_exist, answer_already_exist
+from Stackoverflowlite.main.current_user import get_logged_in_user
+from Stackoverflowlite.models import Questions, Answers
+from Stackoverflowlite.main.checker import question_already_exist, answer_already_exist
 from flask_jwt_extended import (
     JWTManager, jwt_required, create_access_token, get_raw_jwt)
-from challenge2 import models
+from Stackoverflowlite import models
 from uuid import uuid4
-from challenge2.models import ALL_QUESTIONS
+from Stackoverflowlite.models import ALL_QUESTIONS
 #all_questions = list()
 all_answers = list()
 
