@@ -12,7 +12,7 @@ class TestDefault(unittest.TestCase):
 
     def setUp(self):
         """Create a test client"""
-        self.app = createapp.APP
+        self.app = createapp.create_app('testing')
         self.client = self.app.test_client
         self.question = {"question_id": 23, "topic": "java",
                          "title": "What is java", "details": "",
