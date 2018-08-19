@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/charitymarani/StackOverflowlite-UI.svg?branch=stack_api)](https://travis-ci.org/charitymarani/StackOverflowlite-UI)
-[![Coverage Status](https://coveralls.io/repos/github/charitymarani/StackOverflowlite-UI/badge.svg)](https://coveralls.io/github/charitymarani/StackOverflowlite-UI)
+[![Coverage Status](https://coveralls.io/repos/github/charitymarani/Stackoverflowlite/badge.svg?branch=stack_api)](https://coveralls.io/github/charitymarani/Stackoverflowlite?branch=stack_api)
 
 
 # StackOverflowlite
