@@ -1,0 +1,13 @@
+language: python	
+python:	
+ - "3.5.2"	
+cache: pip	
+install:	
+ - pip install -r requirements.txt
+ - pip install coveralls
+
+script:	
+ - pytest challenge2/tests/test_auth.py 
+after_success:
+ - coveralls
+
