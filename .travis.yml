@@ -4,9 +4,10 @@ python:
 cache: pip	
 install:	
  - pip install -r requirements.txt
+ - pip install coveralls
 
 script:	
- - pytest challenge2/tests/test_auth.py
+ - pytest challenge2/tests/test_auth.py --with coveralls
 after_success:
  - coveralls
 
