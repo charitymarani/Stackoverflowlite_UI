@@ -1,10 +1,10 @@
 import unittest
 import json
 import ast
-from .. import app
-from ..app import all_answers
-from ..models import USERS
-from ..models import ALL_QUESTIONS
+from .import app
+from .app import all_answers
+from .models import USERS
+from .models import ALL_QUESTIONS
 
 
 class TestAuthEndpoints(unittest.TestCase):
