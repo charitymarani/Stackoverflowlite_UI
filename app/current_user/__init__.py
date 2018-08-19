@@ -1,5 +1,5 @@
 from flask_jwt_extended import get_jwt_identity, jwt_required
-from challenge2.app.api.v1.auth import auth_model
+from app.api.v1.auth import auth_model
 MY_USER = auth_model.Users()
 
 
