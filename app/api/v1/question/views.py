@@ -1,12 +1,12 @@
 '''question views '''
 from flask import make_response, jsonify, request, Blueprint
-from challenge2.app.api.v1.main.checker import already_exist
-from challenge2.app.api.v1.question.question_model import Questions, Answers
+from app.api.v1.main.checker import already_exist
+from app.api.v1.question.question_model import Questions, Answers
 from flask_jwt_extended import (
     JWTManager, jwt_required, create_access_token, get_raw_jwt)
-from challenge2.app.api.v1.auth import auth_model
-from challenge2.app.api.v1.question import question_model
-from challenge2.app.current_user import get_logged_in_user
+from app.api.v1.auth import auth_model
+from app.api.v1.question import question_model
+from app.current_user import get_logged_in_user
 from uuid import uuid4
 
 all_questions = list()
