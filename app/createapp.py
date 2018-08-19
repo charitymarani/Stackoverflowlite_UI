@@ -4,12 +4,12 @@ main config  file
 '''
 
 from flask import Flask, request, jsonify
-from ..instance import settings
+from instance import settings
 from flask_jwt_extended import (JWTManager, jwt_required,
                                 create_access_token, get_raw_jwt)
 
-from challenge2.app.api.v1.question.views import qn
-from challenge2.app.api.v1.auth.views import auth
+from app.api.v1.question.views import qn
+from app.api.v1.auth.views import auth
 
 
 BLACKLIST = set()
