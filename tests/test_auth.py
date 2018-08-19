@@ -1,10 +1,10 @@
 import unittest
 import json
 import ast
-from challenge2 import app
-from challenge2.app import all_answers
-from challenge2.models import USERS
-from challenge2.models import ALL_QUESTIONS
+from Stackoverflowlite import app
+from Stackoverflowlite.app import all_answers
+from Stackoverflowlite.models import USERS
+from Stackoverflowlite.models import ALL_QUESTIONS
 
 
 class TestAuthEndpoints(unittest.TestCase):
