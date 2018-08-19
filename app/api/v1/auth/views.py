@@ -2,9 +2,9 @@ import re
 from flask import Flask, request, jsonify, render_template, Blueprint
 from flask_jwt_extended import (JWTManager, jwt_required,
                                 create_access_token, get_raw_jwt)
-from challenge2.app.api.v1.auth import auth_model
-from challenge2.app.api.v1.main import responses
-from challenge2.app import createapp
+from app.api.v1.auth import auth_model
+from app.api.v1.main import responses
+from app import createapp
 auth = Blueprint('auth', __name__)
 
 MY_USER = auth_model.Users()
