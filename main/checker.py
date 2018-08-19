@@ -1,5 +1,5 @@
 '''checker.py'''
-from challenge2.models import ALL_QUESTIONS
+from Stackoverflowlite-UI.models import ALL_QUESTIONS
 
 
 def question_already_exist(id):
