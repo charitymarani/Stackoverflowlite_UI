@@ -2,7 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/charitymarani/StackOverflowlite-UI/badge.svg)](https://coveralls.io/github/charitymarani/StackOverflowlite-UI)
 
 
-# StackOverflowlite-UI
+# StackOverflowlite
 ### WHAT?
 
 Stackoverflowlite is a web application that allows  people to ask questions and provide answers 
