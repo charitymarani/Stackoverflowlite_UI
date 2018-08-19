@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/charitymarani/StackOverflowlite-UI.svg?branch=stack_api)](https://travis-ci.org/charitymarani/StackOverflowlite-UI)
+
 # StackOverflowlite-UI
 ### WHAT?
 
